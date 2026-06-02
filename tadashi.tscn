@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://crxqsrpu5o3t0"]
+
+[ext_resource type="Script" uid="uid://bd8hqp8sasmu" path="res://tadashi.gd" id="1_g5u0s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_186t8"]
+
+[node name="tadashi" type="CharacterBody2D" unique_id=1321919375]
+script = ExtResource("1_g5u0s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1636818223]
+shape = SubResource("RectangleShape2D_186t8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=411153515]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1875117241]
